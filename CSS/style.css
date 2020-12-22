@@ -1,0 +1,428 @@
+
+/* import fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* import variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* Header Starts */
+
+.header_area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 2rem;
+}
+.header_area .main-menu .navbar .navbar-brand .icon-title {
+    
+    font-family: var(--roboto);
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0.1ch;
+}
+.header_area .main-menu .navbar {
+    padding: 1rem 2rem;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.2);
+}
+.header_area .main-menu .navbar .nav-link {
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem;
+    color: #111;
+    text-shadow: none;
+}
+.navbar .nav-item .nav-link:hover {
+    color: rgba(240, 137, 41, .8);
+}
+.navbar .nav-item .nav-link:focus {
+    color: #f08929;
+}
+.nav-item .dropdown-menu .dropdown-item:hover {
+    background: #f08929;
+    color: #fff;
+}
+.icon-title {
+    position: relative;
+    top: 5px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.form-control.mr-sm-2 {
+    width: 55vh;
+}
+.form-control.mr-sm-2:focus {
+    box-shadow:none;
+}
+.btn-outline-success {
+    color: #f08929;
+    border: 1px solid #f08929;
+}
+.btn-outline-success:hover {
+    background: #f08929;
+    border: 1px solid #f08929;
+}
+.profile-menu {
+    list-style: none;
+}
+.profile-menu-trigger img {
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.profile-submenu img {
+    border-radius: 50px;
+    padding: 10px;
+}
+.submenu-span {
+    position: relative;
+    top: 17px;
+    right: 10px;
+}
+[data-trigger='dropdown'] {
+    padding-bottom: 45px;
+    color: #0086ab;
+    font-size: 20px;
+}
+.profile-submenu {
+    list-style: none;
+    padding: 0px;
+    border: 1px solid #dadbda;
+    background: #fff;
+    margin-top: 14px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 290px;
+    position: absolute;
+    right: 10px;
+    display: none;
+}
+.profile-submenu.active {
+    display: block;
+}
+.profile-submenu a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #111;
+    font-weight: 400;
+}
+.profile-submenu a:hover {
+    background: #f08929;
+    color: #fff;
+}
+.text-bold {
+    font-weight: 600;
+}
+.sub-text {
+    color: #666;
+}
+/* Header Ends */
+
+
+
+.background-image3 {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 480px;
+    width: 350px;
+    z-index: -1;
+    opacity: 0.05;
+    filter: brightness(100%) contrast(0.7);
+}
+.background-image2 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 1520px;
+    width: 420px;
+    z-index: -1;
+    opacity: 0.07;
+    filter: brightness(90%) contrast(0.8);
+}
+.background-image4 {
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 1980px;
+    width: 420px;
+    z-index: -1;
+    opacity: 0.07;
+    filter: brightness(95%) contrast(0.9);
+}
+/* Banner Area Starts */
+.site-main {
+    position: relative;
+    margin-top: 130px;
+}
+
+.site-main .site-banner-first {
+    position: relative;
+    margin-top: -80px;
+    margin-bottom: 140px;
+}
+.site-main .site-banner-first h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: 1600;
+    color: rgb(63, 62, 62);
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.site-main .site-banner-first h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: rgb(63, 62, 62);
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 350px;
+}
+.site-main .site-banner-first::before {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 320px;
+    background: #fff;
+    position: absolute;
+    left: 205px;
+    top: 0px;
+    border-bottom-right-radius: 700px 880px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.site-main .site-banner {
+    background: url(../Images/background1.png)no-repeat -10% -220%;
+    margin-top: 150px;
+}
+.site-main .site-banner .site-title h1{
+    padding-top: 35%;
+    font-weight: 900;
+}
+.site-main .site-banner .site-title h1::after{
+    content: "";
+    height: 2px;
+    width: 14vw;
+    background: black;
+    display: inline-block;
+    margin-left: 2%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h3{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+.site-main .steps-section {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.site-main .steps-section .row {
+    text-align: center;
+}
+.site-main .steps-section .steps-title {
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: #da6565;
+}
+.site-main .steps-section p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.site-main .steps-section .steps-background {
+    position: absolute;
+    
+}
+.site-main .steps-section .steps-col-1 {
+    width: 150px;
+    position: relative;
+    left: 428px;
+    top: 110px;
+    color: rgb(110, 109, 109);
+    z-index: 2;
+}
+.site-main .steps-section .steps-col-2 {
+    width: 150px;
+    position: relative;
+    left: 82px;
+    top: 110px;
+    color: rgb(110, 109, 109);
+    z-index: 2;
+}
+.site-main .steps-section .steps-icon1 {
+    position: relative;
+    left: 138px;
+    top: 100px;
+    color: rgb(110, 109, 109);
+    z-index: 2;
+}
+.site-main .steps-section .steps-icon2 {
+    position: relative;
+    left: -199px;
+    top: 100px;
+    color: rgb(110, 109, 109);
+    z-index: 2;
+}
+.site-main .steps-section .pseudo-element::before {
+    content: "";
+    position:absolute;
+    left: 372px;
+    top: 57px;
+    width: 285px;
+    height: 285px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+.site-main .steps-section .pseudo-element2::before {
+    content: "";
+    position:absolute;
+    left: 29px;
+    top: 56px;
+    width: 285px;
+    height: 285px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+.site-main .steps-section .pseudo-element::after {
+    content: url("../Images/Steps.png");
+    position: absolute;
+    top: -178px;
+    left: 182px;
+    z-index: -1;
+}
+
+.site-main .steps-section .steps-title::after {
+    
+    background-image: url("../Images/pseudo-text.png");
+    position: absolute;
+    top: 45px;
+    left: 680px;
+    width: 200px;
+    background-repeat: no-repeat;
+    height: 50px;
+    content: "";
+}
+
+
+/* Banner Area Stops */
+
+/* Start Subjects Area */
+
+.site-main .subjects-area .explore-title{
+    font-family: 'Russo One', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    color: #3f4153;
+}
+.site-main .subjects-area .explore-class {
+    margin-bottom: 30px;
+}
+.site-main .subjects-area {
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+.site-main .subjects-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.site-main .subjects-area .first-row .col-lg-4 > .single-subject {
+    border: 1px solid rgba(199, 191, 191, 0.1);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+.site-main .subjects-area .subjects-pseudo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 465px;
+    width: 4px;
+    height: 446px;
+    background: var(--primary-color);
+    filter: brightness(90%);
+}
+.site-main .subjects-area .exams-area {
+    padding-left: 2.5rem;
+    
+}
+.site-main .subjects-area .exams-area span {
+    display: block;
+    font: normal 600 22px/30px var(--roboto);
+}
+.site-main .subjects-area .exams-area h2 {
+    margin-top: 1.8rem;
+}
+.hide {
+    opacity:0;
+    margin-top: -0.8rem;
+}
+.site-main .subjects-area .first-row.jee-area .col-lg-4 > .single-subject, .site-main .subjects-area .first-row.neet-area .col-lg-4 > .single-subject {
+    border: 1px solid rgba(212, 211, 211, 0.1);
+    border-radius: 20%;
+    height: 120px;
+}
+.site-main .subjects-area .first-row.jee-area .col-lg-4 > .single-subject > img, .site-main .subjects-area .first-row.neet-area .col-lg-4 > .single-subject > img{
+    width: 80px;
+}
+.site-main .subjects-area .first-row .col-lg-4 > .single-subject > img {
+    width: 60%;
+    margin-top: -10px;
+    filter: brightness(80%);
+}
+.site-main .subjects-area .first-row .col-lg-4 > .single-subject:hover {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.site-main .subjects-area .first-row .col-lg-4 > .single-subject:hover > img {
+    filter: brightness(100%);
+}
+
+/* End Subjects Area */
+
+
+/* Footer Area */
+footer.footer-area{
+    padding: 5rem 0;
+}
+footer.footer-area .site-logo {
+    margin-bottom: -10px;
+}
+footer.footer-area .social h5 {
+    font: normal 500 23px/30px var(--roboto);
+}
+footer.footer-area a > img {
+    width: 45px;
+}
+footer.footer-area .social a > img {
+    width: 25px;
+    opacity: 0.8;
+}
+footer.footer-area .social a:hover > img {
+    opacity: 1;
+    width: 30px;
+    margin-bottom: -5px;
+}
+footer.footer-area .para {
+    margin-top: 10px;
+}
+
+/* End Footer Area*/

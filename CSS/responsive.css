@@ -1,0 +1,25 @@
+
+
+/* If viewport is equal to 450px or less than that */
+@media only screen and (max-width: 450px){
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar .navbar-brand,
+    .site-main .site-banner-first,
+    .site-main .site-banner-first .container,
+    .site-main .steps-section,
+    .site-main .site-banner,
+    .site-main .subjects-area,
+    .footer-area
+    {
+        padding: 2%;
+        margin: 0%;
+        margin-bottom: 200px;
+    }
+    .site-main .site-banner-first img {
+        top:0;
+    }
+    .site-main .site-banner-first::before {
+        width: 100px;
+        height: 64px;
+    }
+}
